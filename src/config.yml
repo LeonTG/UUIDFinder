@@ -1,5 +1,7 @@
 # UUID Finder by LeonTG77 config.
 
 UUIDFinder:
-    Prefix: &8[&aUUIDFinder&8] &f
-    NoPermissionMsg: &cYou do not have access to that command.
+    # The prefix for the command messages.
+    Prefix: '&8[&aUUIDFinder&8] &f'
+    # The no permission message.
+    NoPermissionMsg: '&cYou do not have access to that command.'
