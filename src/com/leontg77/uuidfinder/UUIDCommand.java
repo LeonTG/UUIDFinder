@@ -7,8 +7,17 @@ import org.bukkit.command.Command;
 import org.bukkit.command.CommandExecutor;
 import org.bukkit.command.CommandSender;
 
+/**
+ * The uuid command class for the command(s).
+ * @author LeonTG77
+ */
 public class UUIDCommand implements CommandExecutor {
 	
+	/**
+	 * Check if the given string is a uuid.
+	 * @param check the string given.
+	 * @return True if an uuid, false if not.
+	 */
 	private boolean isUUID(String check) {
 		return check.matches("[a-fA-F0-9]{8}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{4}-[a-fA-F0-9]{12}");
 	}
@@ -42,9 +51,9 @@ public class UUIDCommand implements CommandExecutor {
 				}
 				
 				if (isUUID(args[0])) {
-					player.sendMessage(UUIDFinder.prefix() + "The name(s) of given uuid is: " + UUIDFinder.getName(args[0]));
+					player.sendMessage(UUIDFinder.prefix() + "The name(s) of " + args[0] + " is: " + UUIDFinder.getName(args[0]));
 				} else {
-					
+					player.sendMessage(UUIDFinder.prefix() + "The uuid of " + args[0] + " is: " + UUIDFinder.getUUID(args[0]));
 				}
 			} else {
 				player.sendMessage(UUIDFinder.noPermMsg());
