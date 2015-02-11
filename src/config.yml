@@ -1,0 +1,5 @@
+# UUID Finder by LeonTG77 config.
+
+UUIDFinder:
+    Prefix: &8[&aUUIDFinder&8] &f
+    NoPermissionMsg: &cYou do not have access to that command.

@@ -1,0 +1,10 @@
+name: UUIDFinder
+main: com.leontg77.uuidfinder.UUIDFinder
+version: 2.0
+author: LeonTG77
+description: Find a players uuid or the player owning a uuid.
+
+commands:
+    uuid:
+        description: Main plugin command.
+
