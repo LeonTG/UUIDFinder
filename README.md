@@ -4,3 +4,6 @@ A minecraft bukkit/spigot plugin that allows you to find the uuid of a name or a
 All info can be found [here](http://dev.bukkit.org/bukkit-plugins/uuid-finder/).
 
 Made by [LeonTG77](https://twitter.com/LeonTG77).
+
+
+** THIS IS BEING UPDATED AND REDONE SOON **
